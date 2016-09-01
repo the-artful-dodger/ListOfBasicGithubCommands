@@ -1,5 +1,5 @@
 git init    			// TO initialize repository
-git add .   			//adds changes ( . means all and add filename.txt means that particular filename 
+git add .   			//adds changes either newor modified files ( . means all and add filename.txt means that particular filename 
 								to the staging directory between the working copy on the pc and the online repository)
 git commit -m "This is our first commit"  //save snapshot
 git log 				//to view list of commits

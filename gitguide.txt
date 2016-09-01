@@ -26,3 +26,21 @@ git comit
 
 
 git commit -am 									//Commit straight from system working directory to repository without the need for a astaging area
+												// But dont use this if you have deleted/moved files
+												
+git checkout -- filename.txt					//if your working copy has been messed up, it takes the modified file from repository and makes it your working copy
+
+
+git reset HEAD filename.txt                     //Unstages a file and brings it out of the staging area.
+
+To go back to a commit, first
+git log to get the commit number you want to go to
+suppose commit number is : 01e7dba57711386ff etc etc you only need the first few characters and also the filename you want to revert to like this:
+
+git checkout 01e7dba -- index.html
+
+and then
+
+git commit
+
+to finalize our changes

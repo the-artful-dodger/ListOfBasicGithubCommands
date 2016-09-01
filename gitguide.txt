@@ -44,3 +44,19 @@ and then
 git commit
 
 to finalize our changes
+
+
+
+
+
+
+
+Finally,
+to push to github
+first create a new repository in the website
+use git init and git add and git commit in the working direcctory and then
+git remote add RepoNickname https://github.com/the-artful-dodger/UnityRollaBall.git
+
+finally 
+
+git push -u RepoNickname master

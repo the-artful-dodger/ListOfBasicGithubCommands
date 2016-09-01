@@ -22,3 +22,7 @@ or
 
 and then
 git comit	
+
+
+
+git commit -am 									//Commit straight from system working directory to repository without the need for a astaging area

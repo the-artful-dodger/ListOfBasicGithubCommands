@@ -4,4 +4,11 @@ git add .   									//adds changes either newor modified files ( . means all an
 git commit -m "This is our first commit"  		//save snapshot
 git log 										//to view list of commits
 git status              						//compares working directory with synchronized project to check if there are any changes.
-git diff 										// showcases the changes that have been made to a modified file
+git diff 										// showcases the changes that have been made to a modified file but only changes between system copy and staging area.
+													not between staging area and repository
+git diff --staged								//showcases differences between staging area and repository
+
+git rm filename.txt								//Removes file from both repository and working copy
+												BUT THE CHANGES HAVE NOT BEEN COMMITTED. YOU ALSO NEED TO COMMIT.
+												ONLY THE add THING IS NOT REWUIRED.
+												

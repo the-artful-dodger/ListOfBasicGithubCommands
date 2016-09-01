@@ -11,4 +11,14 @@ git diff --staged								//showcases differences between staging area and reposi
 git rm filename.txt								//Removes file from both repository and working copy
 												BUT THE CHANGES HAVE NOT BEEN COMMITTED. YOU ALSO NEED TO COMMIT.
 												ONLY THE add THING IS NOT REWUIRED.
-												
+TO rename a file, we either
+{
+git add newfilename.txt
+and then
+git rm oldfilename.txt										
+}
+or
+{git mv oldfilename.txt newfilename.txt}
+
+and then
+git comit	
